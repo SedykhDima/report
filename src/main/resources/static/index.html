@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <meta charset="UTF-8">
+  <title>Отчетный сервис</title>
+</head>
+<body ng-app="reportApp">
+<div class="container">
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Отчетный сервис</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#/report">Работа с отчетами</a></li>
+      <li><a href="#/statistic">Просмотр статистики</a></li>
+    </ul>
+  </div>
+
+  <ng-view></ng-view>
+</div>
+<script src="js/library/jquery-3.2.0.min.js"></script>
+<script src="js/library/angular.min.js"></script>
+<script src="js/library/angular-route.js"></script>
+<script src="js/library/bootstrap.min.js"></script>
+<script src="js/controller/config.js"></script>
+<script src="js/controller/statisticController.js"></script>
+<script src="js/controller/reportController.js"></script>
+</body>
+</html>
